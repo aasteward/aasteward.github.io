@@ -6,6 +6,16 @@ First, install Bundler: `gem install bundler`
 
 Then, from this repo's root folder, run `bundle install`. This will install all of the gems listed in the **Gemfile**.
 
+Then open up the **_config.yml** and edit the values for:
+
+- title
+- blurb
+- email
+- description
+- repository
+
+The value for `repository` should be for your **whatever.github.io** repo on GitHub.
+
 That should be all of the installation needed!
 
 # Running the Server
