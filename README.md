@@ -2,7 +2,7 @@ This blog was created using Jekyll, which is a static site generator built in Ru
 
 # Installation
 
-First, install Bundler: `gem install bundler`
+First, install Bundler: `gem install bundler` and then do `rbenv rehash` (to finalize the installation).
 
 Then, from this repo's root folder, run `bundle install`. This will install all of the gems listed in the **Gemfile**.
 
