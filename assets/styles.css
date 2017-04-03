@@ -19,6 +19,7 @@ header {
 	align-items: center;
 }
 .block-bott {
+	padding: 20px;
 	background-color: rgb(240, 240, 240);
 	font-family: "Open Sans", sans-serif;
 	display: flex;
@@ -28,7 +29,10 @@ header {
 	box-shadow: 0px 3px 5px rgba(0, 0, 0, .5);
 }
 .social-buttons {
-	margin-left: 20px;
+
+}
+.social-buttons i {
+	padding-left: 20px;
 }
 .fa-twitter-square:hover {
 	color: rgb(30, 200, 255);
@@ -88,11 +92,10 @@ body {
 }
 .hero-image {
 	background-image: url("./images/baduk2.jpg");
-	background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    width: 100%;
+    background-size: cover;
+	background-position: 50% 50%;
+	position: relative;
+	height: 320px;
 }
 hr {
 	margin: 0px;
@@ -111,11 +114,18 @@ h2 {
 	font-family: "Droid Sans", sans-serif;
 	color: rgb(65, 65, 65);
 }
+.body {
+	padding: 20px;
+}
 .article-title {
 	font-family: "Droid Sans", sans-serif;
 	color: rgb(65, 65, 65);
 }
 .publish-year {
+	font-family: "Droid Sans", sans-serif;
+	color: rgb(65, 65, 65);
+}
+.article-excerpt {
 	font-family: "Droid Sans", sans-serif;
 	color: rgb(65, 65, 65);
 }
@@ -212,4 +222,32 @@ li {
 	color: rgb(140, 140, 140);
 	margin-left: 0px;
 	margin-right: 20px;
+}
+
+@media (min-width: 670px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 110%;
+		background-color: rgb(65, 65, 65);
+	}
+	.head-nav {
+		color: rgb(240, 240, 240);
+	}
+	.block-bott {
+		display: flex !important;
+		justify-content: space-between;
+		flex-grow: 1;
+		position: static;
+		width: auto;
+		background-color: inherit;
+		box-shadow: none;
+		z-index: 100;
+		padding: 0;
+		right: 0%;
+	}
+	.nav-menu {
+		display: none;
+	}
 }
