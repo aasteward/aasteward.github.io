@@ -20,7 +20,7 @@ header {
 	align-items: center;
 }
 .block-bott {
-	padding: 20px;
+	padding: 20px 12px;
 	background-color: rgb(240, 240, 240);
 	font-family: "Open Sans", sans-serif;
 	display: flex;
@@ -29,11 +29,8 @@ header {
 	margin: 0px;
 	box-shadow: 0px 3px 5px rgba(0, 0, 0, .5);
 }
-.social-buttons {
-
-}
 .social-buttons i {
-	padding-left: 20px;
+	padding-left: 6px;
 }
 .fa-twitter-square:hover {
 	color: rgb(30, 200, 255);
@@ -266,4 +263,7 @@ li {
 	.nav-menu {
 		display: none;
 	}
+	.social-buttons i {
+	padding-left: 20px;
+}
 }
