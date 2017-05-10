@@ -234,7 +234,7 @@ li {
 
 }
 
-@media (min-width: 670px) {
+@media (min-width: 700px) {
 	header {
 		display: flex;
 		justify-content: space-between;
@@ -264,6 +264,6 @@ li {
 		display: none;
 	}
 	.social-buttons i {
-	padding-left: 20px;
-}
+		padding-left: 20px;
+	}
 }
